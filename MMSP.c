@@ -1,4 +1,4 @@
-#include "MMSV16.h"
+#include "MMSP.h"
 
 t_mmsignal* generateSinusSignal(int iNumSamples, int iNumSamplesPerPeriod, double dAmplitude){
 	double *pdValues = (double*)malloc(sizeof(double)*iNumSamples);

@@ -1,5 +1,5 @@
-#ifndef _MMSV16_H_
-#define _MMSV16_H_
+#ifndef _MMSP_H_
+#define _MMSP_H_
 
 #include <math.h>
 #include <stdio.h>
