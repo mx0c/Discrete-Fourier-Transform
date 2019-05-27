@@ -54,7 +54,7 @@ int main (int iArgc, char **ppcArgs){
 	orig->pdValues = tmpB;
 	orig->iNumSamples = 10;
 
-  t_mmsignal* faltung1 = convoluteSignals(signal,kernel);
+  	t_mmsignal* faltung1 = convoluteSignals(signal,kernel);
 	t_mmsignal* inv_faltung1 = convoluteSignals(kernel,signal);
 	t_mmsignal* faltung2 = convoluteSignals(signal,kernel2);
 
@@ -63,7 +63,7 @@ int main (int iArgc, char **ppcArgs){
 	}*/
 
 	writeSignal(faltung1,(char*)".\\data\\conv.sig");
-  //writeSignal(orig,"orig.sig");
+  	//writeSignal(orig,"orig.sig");
 	writeSignal(inv_faltung1,(char*)".\\data\\inv_conv.sig");
 	writeSignal(faltung2,(char*)".\\data\\conv2.sig");
 
