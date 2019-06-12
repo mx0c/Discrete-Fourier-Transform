@@ -1,5 +1,5 @@
 # Signal Processing Library
-A Multimodal Signal Processing Library in C i wrote in my 3rd Semester of studying CS. The Testmain uses GNUPlot to display the Signals.
+A Multimodal Signal Processing Library in C i wrote in my 3rd Semester of studying CS. The Testmain uses GNUPlot to display the Signals. You need to have gnuplot in your PATH to utilize this function.
 
 | Method|returns|Description|
 |-|-|-|  
