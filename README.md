@@ -23,5 +23,5 @@ A Multimodal Signal Processing Library in C i wrote in my 3rd Semester of studyi
 |cart2polar( double *pdRealIn, double *pdImgIn,double *pdAmpOut, double *pdFreqOut)|void||
 |polar2cart( double *pdAmpIn, double *pdFreqIn,double *pdRealOut, double *pdImgOut)|void||
 
-# Compiling the Testmain
+# Compiling
 - $ gcc *.c -o out
